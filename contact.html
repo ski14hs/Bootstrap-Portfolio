@@ -27,26 +27,43 @@
                 
             </nav>
 
-    <div class="content">
+    <div class="container">
         <h2>Contact</h2><br>
-        <div class="contactForm">
-            <form>
-                Name: <br>
-                <input type="text" name="Name"><br>
-                Email: <br>
-                <input type="email" name="Email"><br>
-                Message: <br>
-                <textarea rows="5"></textarea><br>
-                <button class="submit" type="submit">Submit</button>
-            </form>
+        <div class="row">
+            <div class="col-md-2 col-xs-0 col-sm-0">
+                
+            </div>
+            <div class="col-md-8 col-xs-12 col-sm-12">
+                <form>
+                    <div class="form-group">
+                        Name: <br>
+                        <input class="form-control" type="text" name="Name"><br>
+                    </div>
+                    <div class="form-group">
+                        Email: <br>
+                        <input class="form-control" type="email" name="Email"><br>
+                    </div>
+                    <div class="form-group">
+                        Message: <br>
+                        <textarea class="form-control" rows="5"></textarea><br>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+               
+            </div>
+            <div class="col-md-2 col-xs-0 col-sm-0"></div>
         </div>
+        
 
     </div>
     
-    <div class="footer">
-        copyright &copy;
-    </div>
-
+    <footer class="container footer">
+            <!-- <div class="container"> -->
+                <span class="text-muted">
+                    copyright &copy;
+                </span>
+            <!-- </div> -->
+    </footer>
 </body>
 
 </html>
