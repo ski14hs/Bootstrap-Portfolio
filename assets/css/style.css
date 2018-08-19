@@ -101,6 +101,7 @@ textarea{
     color: #ffffff;
     border-top: #4aaaa5 solid 5px;
     text-align: center;
-    /* position: fixed;
-    bottom: 0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
